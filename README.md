@@ -25,11 +25,9 @@ Dataset
 
 The project uses the CrossDocked2020 dataset (22.5M protein-ligand pairs).
 
-For this implementation, we provide two options:
+For this implementation, we recommend:
 
-1. Synthetic Data (Default): The code automatically generates synthetic molecular data for demonstration and testing.
-
-2. Full Dataset: Download from http://bits.csb.pitt.edu/files/crossdock2020/
+ Full Dataset: Download from http://bits.csb.pitt.edu/files/crossdock2020/
    Place the data in ./data/crossdocked_subset/
 
 Configuration
@@ -156,16 +154,6 @@ Troubleshooting
    - Reduce dataset size with config.subset_size
    - Use mixed precision training (fp16)
 
-Citation
-
-If you use this code, please cite:
-
-@article{lg3dmol2024,
-  title={Language-Guided 3D Molecular Diffusion for De Novo Drug Design},
-  author={Manav Kanaganapalli},
-  year={2024},
-  journal={CSE 676 Final Project}
-}
 
 References
 
